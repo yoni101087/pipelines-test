@@ -32,8 +32,8 @@ resources:
     type: Image
     configuration:
       registry: artifactoryIntegration                               # <-- replace with your artifactory integration
-      sourceRepository: docker_local               # <-- required if registry is Artifactory
-      imageName: z0jpd308646363.jfrogdev.org/docker_local/dbp  # < -- replace with your image path and name
+      sourceRepository: docker-local               # <-- required if registry is Artifactory
+      imageName: z0jpd308646363.jfrogdev.org/docker-local/dbp  # < -- replace with your image path and name
       imageTag: latest
       autoPull: true   
 
